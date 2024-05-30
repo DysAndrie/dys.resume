@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dysfred Orbiso - Resume</title>
+
+ <!-- 
+    - Icon
+    - Website inspired with thanks to @codewithsadee
+    - Modified by DysAndrie
+  -->
+  <link rel="shortcut icon" href="assets\images\icon.png">
+
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name">Dysfred Orbiso</h1>
+
+          <p class="title">CS Undergraduate | Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>View Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-unread-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:dysfredorbiso@gmail.com" class="contact-link">dysfredorbiso@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+971544630851" class="contact-link">+971 54 463 0851</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthdate</p>
+
+              <time datetime="2004-06-07">June 7, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Muhaisnah, Dubai, UAE</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+              <a href="https://www.instagram.com/dys_fred/" class="social-link"  target="_blank" rel="noopener noreferrer">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://dysandrie.github.io/dys.io/" class="social-link"  target="_blank" rel="noopener noreferrer">
+                <ion-icon name="person-circle"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="./assets/CV.pdf" class="social-link"  target="_blank" rel="noopener noreferrer">
+                <ion-icon name="document-outline"></ion-icon>
+              </a>
+            </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            A dedicated Computing Science student and aspiring Web Developer with a design-oriented approach to software engineering. 
+            Focused on developing captivating web and app solutions, and passionate about web development and computer hardware, 
+            aiming to improve the world through technology.
+          </p>
+
+          <p>
+            Since childhood, Dysfred has had a deep interest in tinkering with computers. Over the years, he has been honing his coding skills, specializing in Java programming. 
+            In addition to Java, he also possesses a diverse set of software and creative skills, making him a versatile and innovative developer.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Technical Skillset</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/globe.svg" alt="web development"  width="40">
+                <img src="./assets/images/brush.svg" alt="web development"  width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Front-end Web Development</h4>
+
+                <p class="service-item-text">
+                  Proficiency in HTML, CSS, & JavaScript Web design functionalities. 
+                  Taking into account both UI and UX intricacies. <br>
+                  Foundational background in Graphic Design, enabling to be flexible on any workplace given scenario.
+
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/db.svg" alt="DBMS Entry" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database Design and Entry</h4>
+
+                <p class="service-item-text">
+                  Skilled in database management systems, particularly with MySQL and PHP, 
+                  proficiently designing and optimizing databases to ensure efficient data storage and retrieval for web applications. 
+                  
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/fix.svg" alt="construction" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software and Hardware Troubleshooting</h4>
+
+                <p class="service-item-text">
+                  Proficient in software and hardware troubleshooting, 
+                  adept at diagnosing and resolving technical issues efficiently to ensure seamless operation of systems and devices.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/google.svg" alt="icon" width="40">
+                <img src="./assets/images/microsoft.svg" alt="icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">
+                  Microsoft Office Suite & Google Workspace</h4>
+
+                <p class="service-item-text">
+                  Intermediate knowledge on both MS Applications and Google counterparts. Allowing for flexibility and adaptability.
+                </p>
+              </div>
+
+            </li>   
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - Work Experience
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Work</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/work-1.png" alt="work-1" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Sales Associate</h4>
+                <p1>June 2023 - July 2023</p1>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Throughout this Sales Associate Internship at Apparel Group, He had a dynamic experience engaging directly with customers, honing his sales and customer service skills.
+                    This internship not only provided him with practical retail experience but also instilled countless valuable lessons that he will surely keep and cherish.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/work-2.jfif" alt="work-2" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Student Intern</h4>
+                <p1>Mar 2022- May 2022</p1>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p> Engaging in a diverse experience, delving into documentation, research, development, sales, and marketing.
+                    Through this immersive journey, he gained practical skills and a holistic understanding of business operations, paving the way for his future success.
+                   
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="" alt="" width="80" data-modal-img>
+              </figure>
+
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+           
+              <div data-modal-text>
+               
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+
+      </article>
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Stirling, Ras Al Khaimah</h4>
+
+              <span>2022 — 2025</span>
+
+              <p class="timeline-text">           
+              Bachelor of Science (with Honours) Computing Science             
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">United International Private School</h4>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                Senior High School - With Honors, Accounting and Business/Management
+              </p>
+
+            </li>
+
+        
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="footsteps"></ion-icon>
+            </div>
+
+            <h3 class="h3">Work Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Marketing Volunteer | University of Stirling, RAK - GETEX 2024</h4>
+
+              <span>April 2024</span>
+
+              <p class="timeline-text">
+                - Developed and implemented marketing strategies to promote university events and programs, contributing to increased engagement and attendance. <br> <br>
+                - Collaborated with team members to analyze market trends and identify opportunities for brand enhancement, resulting in improved visibility and brand recognition.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sales Associate Internship | APPAREL GROUP, Dubai UAE</h4>
+
+              <span>June 2023 - July 2023</span>
+
+              <p class="timeline-text">
+                - Assisted customers in selecting merchandise and provided personalized recommendations, leading to enhanced customer satisfaction and increased sales. <br> <br>
+                - Participated in inventory management and restocking activities, ensuring optimal product availability and presentation on the sales floor.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Student Intern | Prime Group AE, Dubai UAE</h4>
+
+              <span>March 2022 - May 2022</span>
+
+              <p class="timeline-text">
+                - Conducted research and analysis to support project initiatives, providing valuable insights to inform decision-making processes.  <br> <br>
+                - Assisted in the development of marketing materials and presentations, contributing to effective communication strategies and client engagement.
+              </p>
+
+            </li>
+            
+
+          </ol>
+
+          
+
+        </section>
+
+        
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Trainings & Certifications</h3>
+
+          <ul class="skills-list content-card">
+
+            <section class="blog-posts">
+
+              <ul class="blog-posts-list">
+
+                <li class="blog-post-item">
+                  <a href="https://www.linkedin.com/learning/certificates/2bfd505177abdfdcc46d2ffb73d5aa6ad124d3fd3b1315dca256f93b6dbb75e7?u=56746089" target="_blank" rel="noopener noreferrer">
+    
+                    <figure class="blog-banner-box">
+                      <img src="./assets/images/ai_ms-cert.png" alt="certificate-ai" loading="lazy">
+                    </figure>
+    
+                    <div class="blog-content">
+    
+                      <div class="blog-meta">
+                        <p class="blog-category">Microsoft</p>
+    
+                        <span class="dot"></span>
+    
+                        <time datetime="2022-02-23">May 2024</time>
+                      </div>
+    
+                      <h3 class="h3 blog-item-title">Essentials in Generative AI Certification</h3>
+    
+                      <p class="blog-text">
+                        Career Essentials in Generative AI 
+                        By: Microsoft and LinkedIn
+                      </p>
+    
+                    </div>
+    
+                  </a>
+                </li>
+
+
+                <li class="blog-post-item">
+                  <a href="https://www.linkedin.com/learning/certificates/79185aff002feb3921eb325bd76f9d4d01fbe07b44d7855f500de36c646741ae?u=56746089" target="_blank" rel="noopener noreferrer">
+    
+                    <figure class="blog-banner-box">
+                      <img src="./assets/images/github_cert.png" alt="certificate-github" loading="lazy">
+                    </figure>
+    
+                    <div class="blog-content">
+    
+                      <div class="blog-meta">
+                        <p class="blog-category">GitHub</p>
+    
+                        <span class="dot"></span>
+    
+                        <time datetime="2022-02-23">May 2024</time>
+                      </div>
+    
+                      <h3 class="h3 blog-item-title">Career Essentials in GitHub Professional Certification</h3>
+    
+                      <p class="blog-text">
+                        Career Essentials in GitHub Professional
+                        By: Ray Villalobos
+                      </p>
+    
+                    </div>
+    
+                  </a>
+                </li>
+
+
+    
+                <li class="blog-post-item">
+                  <a href="https://www.linkedin.com/learning/certificates/ba2ea00c75ddb9662183557325f54d14e14adfa13325074865ad5b0556385f71?accountId=56746089&u=56746089&success=true&authUUID=tzCiyieYSKSxH6YEjI5Zmg%3D%3D" target="_blank" rel="noopener noreferrer">
+    
+                    <figure class="blog-banner-box">
+                      <img src="./assets/images/cert-1.png" alt="certificate-1" loading="lazy">
+                    </figure>
+    
+                    <div class="blog-content">
+    
+                      <div class="blog-meta">
+                        <p class="blog-category">LinkedIn</p>
+    
+                        <span class="dot"></span>
+    
+                        <time datetime="2022-02-23">Feb 2024</time>
+                      </div>
+    
+                      <h3 class="h3 blog-item-title">2D Game Design and Development Essential Training</h3>
+    
+                      <p class="blog-text">
+                        2D Game Design and Development Essential Training
+                        By: Jesse Freeman
+                      </p>
+    
+                    </div>
+    
+                  </a>
+                </li>
+
+
+                <li class="blog-post-item">
+                  <a href="https://www.linkedin.com/in/dysfredorbiso707/overlay/1707390092954/single-media-viewer/?profileId=ACoAAD-uew8BOhYdiuSu83vPkYr0ppzas0eDnaw" target="_blank" rel="noopener noreferrer">
+    
+                    <figure class="blog-banner-box">
+                      <img src="./assets/images/cert-2.jpg" alt="certificate-1" loading="lazy">
+                    </figure>
+    
+                    <div class="blog-content">
+    
+                      <div class="blog-meta">
+                        <p class="blog-category">APPAREL GROUP</p>
+    
+                        <span class="dot"></span>
+    
+                        <time datetime="2022-02-23">Jul 2023</time>
+                      </div>
+    
+                      <h3 class="h3 blog-item-title">Apparel Group Global Internship Program </h3>
+    
+                      <p class="blog-text">
+                        
+                      </p>
+    
+                    </div>
+    
+                  </a>
+                </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Game development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Game development</button>
+              </li>
+  
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+                <a href="https://dysandrie.github.io/WebsiteProject-eCSentials/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project_1.png" alt="uni web" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">eCSentials | University Website</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="game development">
+              <a href="https://github.com/DysAndrie/Java2D-Earn-to-Drive" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project_2.png" alt="2d game" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">2D Java Game - Earn to Drive</h3>
+
+                <p class="project-category">Game development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://dysandrie.github.io/dys.io/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project.png" alt="portfolio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Web Portfolio</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://dysandrie.github.io/Youtube-Clone/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project_3.png" alt="ustube.logo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">"UsTube" | Youtube-Clone</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://dysandrie.github.io/Shop-Menu/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project_4.png" alt="stussy.io" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">iStussy.io | Store Menu</h3>
+
+                <p class="project-category">Mockup Web design</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462563.0327106585!2d54.89782944320239!3d25.07565839713421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai!5e0!3m2!1sen!2sae!4v1716482826417!5m2!1sen!2sae" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              
+            
+          </figure>
+
+        </section>
+
+        
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Reach me on</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://www.linkedin.com/in/dysfred-orbiso-81397a259/" class="social-link"  target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/linkedin.png">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://github.com/DysAndrie" class="social-link"  target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/github.svg">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
